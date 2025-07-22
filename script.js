@@ -88,6 +88,7 @@ function navigateToHomePage() {
       loop: true,
       effect: "cube",
       grabCursor: true,
+      speed : 2000,
       cubeEffect: {
         shadow: false,
         slideShadows: true,
