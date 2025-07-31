@@ -24,6 +24,14 @@ function navigateToScheme() {
   Toaster.postMessage("navigateScheme");
 }
 
+function navigateToCatalogues() {
+  Toaster.postMessage("navigateToCatalogues");
+}
+
+function navigateToQuickPurchase() {
+  Toaster.postMessage("navigateToQuickPurchase");
+}
+
 function navigateToBankDetails() {
   Toaster.postMessage("navigateBankDetails");
 }
@@ -125,11 +133,11 @@ function navigateToHomePage() {
     const arrow = document.getElementById("arrowIcon");
 
     if (!expanded) {
-      container.classList.remove("max-h-[13.5rem]");
+      container.classList.remove("max-h-[15.5rem]");
       arrow.classList.add("rotate-180");
       expanded = true;
     } else {
-      container.classList.add("max-h-[13.5rem]");
+      container.classList.add("max-h-[15.5rem]");
       arrow.classList.remove("rotate-180");
       expanded = false;
     }
