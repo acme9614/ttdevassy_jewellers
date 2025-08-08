@@ -13,6 +13,16 @@
     <!-- AOS Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- icon link  -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="overflow-y-auto scrollbar-none">
@@ -44,9 +54,9 @@
       <!-- Drawer -->
       <div
         id="drawer"
-        class="fixed top-0 left-0 w-1/2 max-w-sm h-full bg-white shadow-lg z-50 transform -translate-x-full transition-transform duration-300 ease-in-out"
+        class="fixed top-0 left-0 w-1/2 max-w-sm h-full bg-white shadow-lg z-50 transform -translate-x-full transition-transform duration-300 ease-in-out overflow-y-auto"
       >
-        <div class="flex justify-between items-center px-4 py-4 border-b">
+        <div class="flex justify-between items-center px-4 py-4 border-b gap-4">
           <!-- Drawer Logo -->
           <div
             class="text-2xl font-bold text-[#133235] flex items-center gap-2"
@@ -430,12 +440,10 @@
           data-aos="fade-up"
         >
           A Golden Journey Of <br class="block sm:hidden" />
-          <span class="style-font text-[#C1512C]"
-            >Eighty Years & Counting...</span
-          >
+          <span class="style-font text-[#C1512C]">85 YEARS & Counting...</span>
         </h2>
 
-        <div
+        <!-- <div
           class="text-lg md:text-xl text-gray-700 space-y-4 mb-8"
           data-aos="fade-up"
           data-aos-delay="200"
@@ -449,34 +457,10 @@
             tile-roof and pick-and-slide slab doors locked with an iron rod. The
             painted name board read:
           </p>
-        </div>
+        </div> -->
       </div>
     </section>
-
-    <!-- About Section: Milestones -->
-    <section
-      class="max-w-7xl mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-center md:gap-10 overflow-hidden"
-    >
-      <div class="text-center" data-aos="fade-left">
-        <h2 class="text-3xl font-serif font-bold mb-4 relative inline-block">
-          Milestones more
-          <span class="italic text-[#A77D52]"
-            ><br />
-            and more</span
-          >
-          <span
-            class="absolute bottom-0 left-14 w-36 h-[2px] bg-[#A77D52] -mb-1"
-          ></span>
-        </h2>
-        <div class="md:mb-0 py-4" data-aos="fade-right">
-          <img
-            src="assets/milestones.png"
-            alt="Legacy"
-            class="w-full max-w-full h-auto rounded"
-          />
-        </div>
-      </div>
-    </section>
+    
     <!-- About Section: Vision & Mission -->
     <section class="max-w-7xl mx-auto px-4 py-10 overflow-hidden">
       <div class="flex flex-col md:flex-row md:gap-10 items-start">
@@ -598,7 +582,7 @@
 
     <!-- footer  -->
     <footer>
-      <div class="w-full px-4 py-6 md:py-10 bg-[#383838] text-white">
+      <div class="w-full px-4 py-6 md:py-10 bg-[#1A2E5A] text-white">
         <div
           class="max-w-6xl mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-center"
         >
@@ -613,14 +597,55 @@
                 />
               </a>
             </div>
+            <!-- social icons  -->
+            <div class="flex gap-3 mt-4 text-gray-600">
+              <a
+                href="https://www.facebook.com/ttdevassy"
+                class="p-2 rounded-full bg-gray-100 hover:bg-blue-600 hover:text-white transition"
+              >
+                <i class="uil uil-facebook-f text-xl"></i>
+              </a>
+              <a
+                href="https://x.com/ttdevassy"
+                class="p-2 rounded-full bg-gray-100 hover:bg-sky-500 hover:text-white transition"
+              >
+                <i class="uil uil-twitter text-xl"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/ttdevassy/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="p-2 rounded-full bg-gray-100 hover:bg-pink-500 hover:text-white transition"
+              >
+                <i class="uil uil-instagram text-xl"></i>
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=9169160161"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="p-2 rounded-full bg-gray-100 hover:bg-green-500 hover:text-white transition"
+              >
+                <i class="uil uil-whatsapp text-xl"></i>
+              </a>
+              <!-- Pinterest SVG -->
+              <a
+                href="https://in.pinterest.com/ttdevassy/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="p-2 rounded-full bg-gray-100 hover:bg-red-600 hover:text-white transition"
+              >
+                <i class="fab fa-pinterest-p text-xl px-1"></i>
+              </a>
+            </div>
           </div>
 
           <!-- Contact Details -->
           <div class="space-y-3">
             <p class="font-playfair font-semibold text-xl">Contact us</p>
             <p>
-              TT DEVASSY JEWELLERS, <br />
-              Calicut Rd, Kunnamkulam, Kerala 680503
+              T T DEVASSY JEWELLERY , <br />
+              Calicut Rd, Kunnamkulam, Kerala 680503, <br />
+              Branch Locations : Kochi & Trivandrum
               <br /><br />
 
               <span class="block mt-1"> Phone: +91 94979 16000 </span>
