@@ -94,9 +94,9 @@ function navigateToHomePage() {
 
  const swiper = new Swiper(".BrandingSwiper", {
       loop: true,
-      effect: "cube",
+     
       grabCursor: true,
-      speed : 2000,
+      speed : 1500,
       cubeEffect: {
         shadow: false,
         slideShadows: true,
@@ -104,7 +104,7 @@ function navigateToHomePage() {
         shadowScale: 0.94,
       },
       autoplay: {
-        delay: 3500,
+        delay: 2000,
         disableOnInteraction: false,
       },
       pagination: {

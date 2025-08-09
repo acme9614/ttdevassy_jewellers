@@ -141,7 +141,7 @@
             class="hover:text-[#a7704a]"
             >Gold</a
           >
-         
+
           <a href="#" onclick="navigateToSetting()" class="hover:text-[#a7704a]"
             >Settings</a
           >
@@ -205,13 +205,11 @@
     </div>
 
     <!-- services  -->
-    <div
-      class="flex flex-col items-center justify-center pt-6 px-6 md:py-10 font-['Roboto']"
-    >
-      <!-- Grid Container -->
+    <div class="flex flex-col items-center justify-center pt-6 px-6 md:py-10">
+      <!-- Flex Container -->
       <div
         id="boxContainer"
-        class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-7 gap-3 md:gap-3 lg:gap-6 overflow-hidden transition-all duration-500 max-h-[15.5rem] sm:max-h-none"
+        class="flex flex-wrap justify-center gap-3 md:gap-3 lg:gap-6 overflow-hidden transition-all duration-500 max-h-[15.5rem] lg:max-w-5xl sm:max-h-none"
       >
         <!-- Box 1 -->
         <div
@@ -226,7 +224,7 @@
           />
           <span class="text-sm font-semibold mt-2">Scheme</span>
         </div>
-
+        <!-- Box 2 -->
         <div
           onclick="navigateToCatalogues()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -239,7 +237,7 @@
           />
           <span class="text-sm font-semibold mt-2">Catalogues</span>
         </div>
-
+        <!-- Box 3  -->
         <div
           onclick="navigateToQuickPurchase()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -256,7 +254,7 @@
           >
         </div>
 
-        <!-- Box 2 -->
+        <!-- Box 4 -->
         <div
           onclick="navigateToBankDetails()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -270,7 +268,7 @@
           <span class="text-sm font-semibold mt-2">Bank</span>
         </div>
 
-        <!-- Box 3 -->
+        <!-- Box 5 -->
         <div
           onclick="navigateToKyc()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -284,7 +282,7 @@
           <span class="text-sm font-semibold mt-2">KYC</span>
         </div>
 
-        <!-- Box 4 -->
+        <!-- Box 6 -->
         <div
           onclick="navigateToRate()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -298,7 +296,7 @@
           <span class="text-sm font-semibold mt-2">Rate</span>
         </div>
 
-        <!-- Box 5 -->
+        <!-- Box 7 -->
         <div
           onclick="navigateSchemeRecords()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -311,8 +309,8 @@
           />
           <span class="text-sm font-semibold mt-2">Records</span>
         </div>
-        
-        <!-- Box 6 -->
+
+        <!-- Box 8 -->
         <div
           onclick="navigateToCustomerCard()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] ] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -326,7 +324,7 @@
           <span class="text-sm font-semibold mt-2">Card</span>
         </div>
 
-        <!-- Box 7 -->
+        <!-- Box 9 -->
         <div
           onclick="navigateTransactionHistory()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -340,7 +338,7 @@
           <span class="text-sm font-semibold mt-2">History</span>
         </div>
 
-        <!-- Box 8 -->
+        <!-- Box 10 -->
         <div
           onclick="navigateToMyOrder()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -354,7 +352,7 @@
           <span class="text-sm font-semibold mt-2">Order</span>
         </div>
 
-        <!-- Box 9 -->
+        <!-- Box 11 -->
         <div
           onclick="navigateToUserProfile()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -368,7 +366,7 @@
           <span class="text-sm font-semibold mt-2">Profile</span>
         </div>
 
-        <!-- Box 10 -->
+        <!-- Box 12 -->
         <div
           onclick="navigateToDigitalGold()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -382,7 +380,7 @@
           <span class="text-sm font-semibold mt-2">Gold</span>
         </div>
 
-        <!-- Box 12 -->
+        <!-- Box 13 -->
         <div
           onclick="navigateToSetting()"
           class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
@@ -395,7 +393,6 @@
           />
           <span class="text-sm font-semibold mt-2">Settings</span>
         </div>
-
       </div>
 
       <!-- Toggle Button for Mobile -->
