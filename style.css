@@ -32,3 +32,16 @@ html {
       background-color: #facc15;
       opacity: 1;
     }
+
+
+    /* gold scheme section  */
+
+      @font-face {
+      font-family: 'Gotham';
+      src: url('fonts/Gotham.woff2') format('woff2'),
+           url('fonts/Gotham.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    .font-libre { font-family: 'Libre Baskerville', serif; }
+    .font-gotham { font-family: 'Gotham', sans-serif; }

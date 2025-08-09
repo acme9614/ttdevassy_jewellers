@@ -23,6 +23,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="overflow-y-auto scrollbar-none">
@@ -136,12 +141,7 @@
             class="hover:text-[#a7704a]"
             >Gold</a
           >
-          <a
-            href="#"
-            onclick="navigateToPanchang()"
-            class="hover:text-[#a7704a]"
-            >Panchang</a
-          >
+         
           <a href="#" onclick="navigateToSetting()" class="hover:text-[#a7704a]"
             >Settings</a
           >
@@ -311,7 +311,7 @@
           />
           <span class="text-sm font-semibold mt-2">Records</span>
         </div>
-
+        
         <!-- Box 6 -->
         <div
           onclick="navigateToCustomerCard()"
@@ -382,20 +382,6 @@
           <span class="text-sm font-semibold mt-2">Gold</span>
         </div>
 
-        <!-- Box 11 -->
-        <div
-          onclick="navigateToPanchang()"
-          class="w-24 h-28 md:w-28 md:h-28 rounded-tr-[40px] rounded-tl-[40px] rounded-bl-[40px] bg-[#E5D7CA] flex flex-col items-center justify-center text-center shadow-md text-black cursor-pointer"
-          data-aos="fade-up"
-          data-aos-delay="1000"
-        >
-          <img
-            class="w-10 h-10"
-            src="https://cdn-icons-png.flaticon.com/128/3013/3013143.png"
-          />
-          <span class="text-sm font-semibold mt-2">Panchang</span>
-        </div>
-
         <!-- Box 12 -->
         <div
           onclick="navigateToSetting()"
@@ -409,6 +395,7 @@
           />
           <span class="text-sm font-semibold mt-2">Settings</span>
         </div>
+
       </div>
 
       <!-- Toggle Button for Mobile -->
@@ -433,36 +420,170 @@
     </div>
 
     <!-- About Section  -->
-    <section class="w-full md:py-12 px-4 md:px-8">
+    <section class="w-full md:py-6 px-4 md:px-8">
       <div class="max-w-4xl mx-auto text-center">
         <h2
-          class="text-black text-4xl md:text-5xl font-bold leading-tight mb-6"
+          class="text-black text-4xl md:text-5xl font-bold font-libre leading-tight mb-6"
           data-aos="fade-up"
         >
           A Golden Journey Of <br class="block sm:hidden" />
-          <span class="style-font text-[#C1512C]">85 YEARS & Counting...</span>
+          <span class="text-[#C1512C]">85 YEARS & Counting...</span>
         </h2>
-
-        <!-- <div
-          class="text-lg md:text-xl text-gray-700 space-y-4 mb-8"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
-          <p><strong>We had a very Humble Beginning</strong></p>
-
-          <p>
-            Back in 1941, my grandfather Late Mr. Tharakan Tharu Devassy opened
-            a small kiosk by the wayside. This was on the main road by the
-            market area of Chavakkad. Imagine a small shack. With a mud
-            tile-roof and pick-and-slide slab doors locked with an iron rod. The
-            painted name board read:
-          </p>
-        </div> -->
       </div>
     </section>
-    
+
+    <!-- How It Works Section -->
+    <section class="bg-white py-12">
+      <div class="max-w-5xl mx-auto px-4 text-center">
+        <!-- Title -->
+        <div class="mb-10" data-aos="fade-up">
+          <h2 class="text-4xl font-bold text-gray-800 font-libre">
+            How it works
+          </h2>
+          <p class="text-gray-500 mt-2">
+            3 easy steps to purchase the jewellery of your dreams
+          </p>
+        </div>
+
+        <!-- Steps -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <!-- Step 1 -->
+          <div class="p-6 transition" data-aos="fade-up" data-aos-delay="100">
+            <img
+              src="assets/easy-return.svg"
+              alt="Easy Payment Options"
+              class="mx-auto w-28 h-28 mb-4"
+            />
+            <div class="text-lg font-semibold text-gray-800 mb-2">
+              Easy Payment Options
+            </div>
+            <p class="text-gray-500">
+              Pick a scheme that suits you and pay fixed monthly Instalments.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="p-6 transition" data-aos="fade-up" data-aos-delay="200">
+            <img
+              src="assets/enjoy-benifits.svg"
+              alt="Enjoy Benefits"
+              class="mx-auto w-28 h-28 mb-4"
+            />
+            <div class="text-lg font-semibold text-gray-800 mb-2">
+              Enjoy Benefits
+            </div>
+            <p class="text-gray-500">
+              Get up to 100% BONUS based on your 1st Instalments.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="p-6 transition" data-aos="fade-up" data-aos-delay="300">
+            <img
+              src="assets/redeem.svg"
+              alt="Redeem to Shop"
+              class="mx-auto w-28 h-28 mb-4"
+            />
+            <div class="text-lg font-semibold text-gray-800 mb-2">
+              Redeem to Shop
+            </div>
+            <p class="text-gray-500">
+              Simply use your accumulated amount to make your purchase online
+              and offline.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Scheme Section -->
+
+    <div class="max-w-6xl mx-auto px-4 py-6 space-y-12">
+      <!-- Section 1 -->
+      <section class="space-y-4" data-aos="fade-up">
+        <h2 class="text-3xl font-bold text-gray-800 font-libre">
+          Just Choose it &amp; Own it!
+        </h2>
+        <p class="text-gray-600 leading-relaxed md:text-xl">
+          Choose your investment plan, and own the jewellery you desire. MIGOLD
+          offers a unique scheme to save money on purchases through monthly
+          advance payments starting at Rs 1000.
+        </p>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="space-y-4" data-aos="fade-up">
+        <h2 class="text-3xl font-bold text-gray-800 font-libre">
+          The MiGold Schemes
+        </h2>
+        <p class="text-gray-600 md:text-xl">
+          MIGOLD offers three schemes - two investment plans with 11 months
+          duration and one with 24 months. If you are selecting a plan for 11
+          months, there are two options to get the benefits - by cash or by
+          weight.
+        </p>
+        <p class="text-gray-600 md:text-xl">
+          For the cash plan, you can invest in multiples of thousands, and the
+          range is between Rs 1000 and Rs 16,000. If you pay Rs 1000, at the end
+          of 11 months, TT Devassy Jewellery will add a bonus of Rs 1000; If
+          your investment is Rs 2000, the addition by the jeweller will be Rs
+          2000. The aggregate amount can be redeemed for purchasing any
+          jewellery of your choice.
+        </p>
+        <p class="text-gray-600 md:text-xl">
+          The By Weight plan with 11 months duration is open for investments
+          starting from Rs 5000 and going up to one lakh. The monthly payment
+          will be converted into gold based on its rate. On the 12th month, TT
+          Devassy Jewellery will put in the equivalent of the monthly payment in
+          gold. So, this scheme is the same as buying gold every month for a
+          whole year. The added advantage of the By Weight scheme is that it
+          will protect the customer from the price hike as their investment has
+          already been converted to gold.
+        </p>
+        <p class="text-gray-600 md:text-xl">
+          The 24-month scheme is highly beneficial for those planning big
+          purchases, The monthly payment is Rs 10,000 and above in its
+          multiples, and you can redeem the amount on the 25th, 26th or 27th
+          month with a host of benefits. On the 25th month, we will add 150 per
+          cent of the monthly payment (Rs 15000 for a customer who pays Rs
+          10,000 monthly). This bonus will go up to 200 per cent in the 26th
+          month, and 225 per cent in the 27th month.
+        </p>
+        <p class="text-gray-600 md:text-xl">
+          MIGOLD is an easy advance payment scheme with multiple options to buy
+          gold and save money!
+        </p>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="space-y-4" data-aos="fade-up">
+        <h2 class="text-3xl font-bold text-gray-800 font-libre">
+          Why Invest In MiGold?
+        </h2>
+        <ul class="list-disc list-inside md:text-xl text-gray-600 space-y-2">
+          <li>
+            Pay small amounts in advance and redeem the aggregate at the end of
+            the scheme
+          </li>
+          <li>
+            It offers several options and a range of payments starting from Rs
+            1000
+          </li>
+          <li>This scheme helps you save every month for a later purchase</li>
+          <li>It has the benefit of avoiding gold price hikes to an extent</li>
+          <li>
+            Zero risk of storing gold at your home as your precious gold will be
+            in our safe custody
+          </li>
+          <li>
+            Get fabulous incentives or bonuses on the completion of your term
+            period.
+          </li>
+        </ul>
+      </section>
+    </div>
+
     <!-- About Section: Vision & Mission -->
-    <section class="max-w-7xl mx-auto px-4 py-10 overflow-hidden">
+    <section class="max-w-6xl mx-auto px-4 py-10 overflow-hidden">
       <div class="flex flex-col md:flex-row md:gap-10 items-start">
         <!-- Vision -->
         <div class="w-full md:w-1/2 mb-8 md:mb-0" data-aos="fade-right">
@@ -584,7 +705,7 @@
     <footer>
       <div class="w-full px-4 py-6 md:py-10 bg-[#1A2E5A] text-white">
         <div
-          class="max-w-6xl mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-center"
+          class="max-w-6xl mx-auto grid gap-10 md:gap-[500px] md:grid-cols-2 lg:grid-cols-2 items-center"
         >
           <div class="flex flex-col gap-4 mt-4 md:mt-0 md:mb-10">
             <!-- Center: Logo -->
@@ -597,44 +718,66 @@
                 />
               </a>
             </div>
-            <!-- social icons  -->
-            <div class="flex gap-3 mt-4 text-gray-600">
+            <!-- Social Icons (Official Style) -->
+            <div class="flex gap-3 mt-4 text-gray-600 text-lg">
               <a
                 href="https://www.facebook.com/ttdevassy"
-                class="p-2 rounded-full bg-gray-100 hover:bg-blue-600 hover:text-white transition"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center justify-center w-10 h-10 rounded-full"
               >
-                <i class="uil uil-facebook-f text-xl"></i>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/145/145802.png"
+                  alt="facebook"
+                />
               </a>
+
               <a
                 href="https://x.com/ttdevassy"
-                class="p-2 rounded-full bg-gray-100 hover:bg-sky-500 hover:text-white transition"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center justify-center w-10 h-10 rounded-full"
               >
-                <i class="uil uil-twitter text-xl"></i>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png"
+                  alt="twitter"
+                />
               </a>
+
               <a
                 href="https://www.instagram.com/ttdevassy/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="p-2 rounded-full bg-gray-100 hover:bg-pink-500 hover:text-white transition"
+                class="flex items-center justify-center w-10 h-10 rounded-full"
               >
-                <i class="uil uil-instagram text-xl"></i>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
+                  alt="instagram"
+                />
               </a>
+
               <a
                 href="https://api.whatsapp.com/send?phone=9169160161"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="p-2 rounded-full bg-gray-100 hover:bg-green-500 hover:text-white transition"
+                class="flex items-center justify-center w-10 h-10 rounded-full"
               >
-                <i class="uil uil-whatsapp text-xl"></i>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/3670/3670051.png"
+                  alt="whatsapp"
+                />
               </a>
-              <!-- Pinterest SVG -->
+
               <a
                 href="https://in.pinterest.com/ttdevassy/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="p-2 rounded-full bg-gray-100 hover:bg-red-600 hover:text-white transition"
+                class="flex items-center justify-center w-10 h-10 rounded-full"
               >
-                <i class="fab fa-pinterest-p text-xl px-1"></i>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/145/145808.png"
+                  alt="pinterest"
+                />
               </a>
             </div>
           </div>
@@ -645,7 +788,7 @@
             <p>
               T T DEVASSY JEWELLERY , <br />
               Calicut Rd, Kunnamkulam, Kerala 680503, <br />
-              Branch Locations : Kochi & Trivandrum
+              Kochi & Trivandrum
               <br /><br />
 
               <span class="block mt-1"> Phone: +91 94979 16000 </span>
